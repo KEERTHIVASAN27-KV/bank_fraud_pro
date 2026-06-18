@@ -32,7 +32,7 @@ CREATE TABLE bank_transactions
 
 
 SELECT * FROM bank_transactions
-LIMIT 10000
+LIMIT 5;
 
 -- Check NULL Values
 	
