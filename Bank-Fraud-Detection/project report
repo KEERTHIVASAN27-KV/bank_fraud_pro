@@ -1,0 +1,359 @@
+# BANK FRAUD DETECTION ANALYSIS PROJECT
+
+## Project Report
+
+### Prepared By:
+
+**Keerthi Vasan**
+
+### Role:
+
+Data Analyst Project
+
+### Tools Used:
+
+SQL | Python | Pandas | Power BI | Excel
+
+---
+
+# 1. Executive Summary
+
+Bank fraud has become a major challenge for financial institutions due to the increasing number of digital transactions.
+
+This project focuses on analyzing banking transaction data to identify fraudulent activities, understand fraud patterns, and generate meaningful business insights.
+
+The project uses SQL for data analysis, Python for data exploration and cleaning, and Power BI for creating an interactive fraud monitoring dashboard.
+
+The final outcome helps identify high-risk transactions, customers, and fraud trends that can support better fraud prevention strategies.
+
+---
+
+# 2. Business Problem
+
+Banks handle millions of transactions daily. Manual monitoring of every transaction is difficult and time-consuming.
+
+The organization needs a data-driven solution to:
+
+* Detect fraudulent transactions
+* Identify risky customers
+* Analyze fraud patterns
+* Monitor fraud trends
+* Reduce financial losses
+
+---
+
+# 3. Project Objectives
+
+The main objectives of this project are:
+
+• Analyze transaction data and identify fraud cases
+
+• Calculate total fraud transactions and fraud amount
+
+• Identify customers involved in fraudulent activities
+
+• Understand transaction behavior patterns
+
+• Create an interactive dashboard for fraud monitoring
+
+• Provide actionable business recommendations
+
+---
+
+# 4. Dataset Description
+
+The dataset contains banking transaction information.
+
+## Dataset Columns
+
+| Column Name        | Description               |
+| ------------------ | ------------------------- |
+| transaction_id     | Unique transaction number |
+| customer_id        | Customer identifier       |
+| transaction_date   | Date of transaction       |
+| transaction_amount | Amount transferred        |
+| transaction_type   | Type of transaction       |
+| location           | Transaction location      |
+| payment_method     | Mode of payment           |
+| is_fraud           | Fraud indicator           |
+
+## Target Column
+
+is_fraud:
+
+0 → Normal Transaction
+
+1 → Fraud Transaction
+
+---
+
+# 5. Tools and Technologies
+
+## SQL
+
+Used for:
+
+* Data extraction
+* Aggregation
+* Fraud analysis
+* KPI calculation
+* Customer analysis
+
+## Python
+
+Used for:
+
+* Data loading
+* Data cleaning
+* Exploratory Data Analysis
+
+## Pandas
+
+Used for:
+
+* Handling missing values
+* Data transformation
+* Data validation
+
+## Power BI
+
+Used for:
+
+* Interactive dashboard creation
+* Data visualization
+* Business reporting
+
+---
+
+# 6. Data Cleaning Process
+
+Before analysis, the dataset was cleaned using Python.
+
+Performed operations:
+
+### Missing Value Handling
+
+Checked missing records and handled null values.
+
+### Duplicate Removal
+
+Removed duplicate transactions to maintain accuracy.
+
+### Data Type Validation
+
+Converted:
+
+* Date columns into datetime format
+* Amount columns into numerical format
+
+### Data Quality Checks
+
+Verified:
+
+* Negative transaction values
+* Invalid customer records
+* Incorrect transaction values
+
+---
+
+# 7. Exploratory Data Analysis
+
+EDA was performed to understand fraud patterns.
+
+Analysis performed:
+
+## Fraud Transaction Distribution
+
+Analyzed the ratio between normal and fraudulent transactions.
+
+## Transaction Amount Analysis
+
+Studied high-value transactions related to fraud.
+
+## Customer Fraud Analysis
+
+Identified customers with multiple fraudulent transactions.
+
+## Time-Based Analysis
+
+Analyzed fraud occurrence trends by date and month.
+
+---
+
+# 8. SQL Analysis
+
+SQL queries were created to answer business questions.
+
+## Total Fraud Transactions
+
+Purpose:
+
+To calculate the total number of fraudulent transactions.
+
+## Total Fraud Amount
+
+Purpose:
+
+To calculate financial loss caused by fraud.
+
+## High Risk Customers
+
+Purpose:
+
+To identify customers with repeated fraud activities.
+
+## Fraud Trend Analysis
+
+Purpose:
+
+To understand fraud growth over time.
+
+---
+
+# 9. Power BI Dashboard
+
+The Power BI dashboard provides a complete fraud monitoring solution.
+
+## Dashboard KPIs
+
+### Total Transactions
+
+Shows total number of processed transactions.
+
+### Fraud Transactions
+
+Displays number of detected fraudulent transactions.
+
+### Fraud Amount
+
+Shows total financial impact caused by fraud.
+
+### Fraud Percentage
+
+Displays fraud rate compared with total transactions.
+
+---
+
+# 10. Dashboard Visualizations
+
+The dashboard contains:
+
+## Fraud Trend Chart
+
+Shows fraud movement over time.
+
+## Fraud Amount Analysis
+
+Displays transaction categories contributing to fraud.
+
+## Customer Risk Analysis
+
+Highlights customers with suspicious activities.
+
+## Location Analysis
+
+Shows regions with higher fraud occurrence.
+
+## Transaction Pattern Analysis
+
+Helps understand fraud behavior.
+
+(Add Dashboard Screenshots Here)
+
+---
+
+# 11. Key Insights
+
+From the analysis:
+
+• Fraudulent transactions were identified using transaction patterns.
+
+• Certain customers showed repeated suspicious activities.
+
+• High-value transactions contributed significantly to fraud amount.
+
+• Fraud trends changed over different time periods.
+
+• Dashboard helps quickly monitor fraud activities.
+
+---
+
+# 12. Business Recommendations
+
+Based on analysis:
+
+1. Implement real-time fraud monitoring systems.
+
+2. Apply additional verification for high-value transactions.
+
+3. Monitor customers with repeated suspicious behavior.
+
+4. Use historical fraud patterns for predictive modeling.
+
+5. Continuously update fraud detection rules.
+
+---
+
+# 13. Project Workflow
+
+Raw Dataset
+
+↓
+
+Data Cleaning
+
+↓
+
+Exploratory Data Analysis
+
+↓
+
+SQL Analysis
+
+↓
+
+Power BI Dashboard
+
+↓
+
+Business Insights
+
+---
+
+# 14. Skills Demonstrated
+
+Technical Skills:
+
+✓ SQL Query Writing
+
+✓ Python Data Analysis
+
+✓ Pandas
+
+✓ Data Cleaning
+
+✓ Power BI Dashboard Development
+
+✓ Business Intelligence
+
+Analytical Skills:
+
+✓ Problem Solving
+
+✓ Data Interpretation
+
+✓ Fraud Pattern Analysis
+
+✓ Decision Making
+
+---
+
+# 15. Conclusion
+
+This project demonstrates how data analytics can be used to identify fraudulent banking activities and generate meaningful business insights.
+
+By combining SQL, Python, and Power BI, the project provides an effective approach for analyzing transaction data and supporting fraud prevention strategies.
+
+---
+
+## End of Report
