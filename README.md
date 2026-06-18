@@ -209,7 +209,7 @@ Business Insights
 
 # 👨‍💻 Author
 
-**Keerthi Vasan**
+KEERTHIVASAN S
 
 Data Analyst | SQL | Python | Power BI | Pandas
 
